@@ -40,6 +40,7 @@ Antes de qualquer atuação EKOM:
 |---|---|
 | Autor da Especificação | `roles/AUTOR-DA-ESPECIFICACAO.md` |
 | Engenheiro Analista | `roles/ENGENHEIRO-ANALISTA.md` |
+| Analista de Demanda Microsoft 365 Tegma | `roles/ANALISTA-DEMANDA-MICROSOFT365-TEGMA.md` |
 | Engenheiro Implementador | `roles/ENGENHEIRO-IMPLEMENTADOR.md` |
 | Crítico ou Engenheiro Revisor | `roles/ENGENHEIRO-REVISOR.md` |
 | Consultor de Arquitetura | `roles/CONSULTOR-DE-ARQUITETURA.md` |
