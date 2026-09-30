@@ -1,0 +1,306 @@
+{
+    "contextos":  {
+                      "ASL-Stage-e-Frotas":  [
+                                                 {
+                                                     "name":  "ASLIntegracao Frotas Publicador — Visao Tecnica",
+                                                     "description":  "Evidências de fluxo do repositório ASLIntegracaoFrotasPublicador",
+                                                     "md":  "./docs/Contextos/ASL-Stage-e-Frotas/Tecnico/ASLIntegracaoFrotasPublicador/visao-tecnica.md"
+                                                 },
+                                                 {
+                                                     "name":  "ASLIntegracao Stage Migrations — Visao Tecnica",
+                                                     "description":  "Evidências de fluxo do repositório ASLIntegracaoStageMigrations",
+                                                     "md":  "./docs/Contextos/ASL-Stage-e-Frotas/Tecnico/ASLIntegracaoStageMigrations/visao-tecnica.md"
+                                                 },
+                                                 {
+                                                     "name":  "ASLIntegracao Stage Worker — Visao Tecnica",
+                                                     "description":  "Fluxo Timer de consulta ASL, gravação Stage e reprocessamento.",
+                                                     "md":  "./docs/Contextos/ASL-Stage-e-Frotas/Tecnico/ASLIntegracaoStageWorker/visao-tecnica.md"
+                                                 }
+                                             ],
+                      "BYD-Veiculos":  [
+                                           {
+                                               "name":  "Byd Veiculo Integrador — Visao Tecnica",
+                                               "description":  "Fluxos reais de recebimento e saída de veículos BYD, com estados, efeitos, falhas e diagnóstico.",
+                                               "md":  "./docs/Contextos/BYD-Veiculos/Tecnico/BydVeiculoIntegrador/visao-tecnica.md"
+                                           }
+                                       ],
+                      "Consulta-Eletronica-NF":  [
+                                                     {
+                                                         "name":  "Consulta Eletronica NF — Visao Tecnica",
+                                                         "description":  "Evidências de fluxo do repositório ConsultaEletronicaNF",
+                                                         "md":  "./docs/Contextos/Consulta-Eletronica-NF/Tecnico/ConsultaEletronicaNF/visao-tecnica.md"
+                                                     }
+                                                 ],
+                      "Cotacao-OL":  [
+                                         {
+                                             "name":  "OLCotacao Api — Visao Tecnica",
+                                             "description":  "Evidências de fluxo do repositório OLCotacaoApi",
+                                             "md":  "./docs/Contextos/Cotacao-OL/Tecnico/OLCotacaoApi/visao-tecnica.md"
+                                         },
+                                         {
+                                             "name":  "OLCotacao UI — Visao Tecnica",
+                                             "description":  "Evidências de fluxo do repositório OLCotacaoUI",
+                                             "md":  "./docs/Contextos/Cotacao-OL/Tecnico/OLCotacaoUI/visao-tecnica.md"
+                                         }
+                                     ],
+                      "CSA":  [
+                                  {
+                                      "name":  "CSA — Visao Tecnica",
+                                      "description":  "Evidências de fluxo do repositório CSA",
+                                      "md":  "./docs/Contextos/CSA/Tecnico/CSA/visao-tecnica.md"
+                                  },
+                                  {
+                                      "name":  "CSACarta Fisco Worker — Visao Tecnica",
+                                      "description":  "Evidências de fluxo do repositório CSACartaFiscoWorker",
+                                      "md":  "./docs/Contextos/CSA/Tecnico/CSACartaFiscoWorker/visao-tecnica.md"
+                                  },
+                                  {
+                                      "name":  "CSAMobile — Visao Tecnica",
+                                      "description":  "Evidências de fluxo do repositório CSAMobile",
+                                      "md":  "./docs/Contextos/CSA/Tecnico/CSAMobile/visao-tecnica.md"
+                                  },
+                                  {
+                                      "name":  "CSAResponse ERPConsumer — Visao Tecnica",
+                                      "description":  "Evidências de fluxo do repositório CSAResponseERPConsumer",
+                                      "md":  "./docs/Contextos/CSA/Tecnico/CSAResponseERPConsumer/visao-tecnica.md"
+                                  }
+                              ],
+                      "DCE":  [
+                                  {
+                                      "name":  "DCe — Visao Tecnica",
+                                      "description":  "Evidências de fluxo do repositório DCe",
+                                      "md":  "./docs/Contextos/DCE/Tecnico/DCe/visao-tecnica.md"
+                                  },
+                                  {
+                                      "name":  "Dce Emissao — Visao Tecnica",
+                                      "description":  "Evidências de fluxo do repositório Dce-Emissao",
+                                      "md":  "./docs/Contextos/DCE/Tecnico/Dce-Emissao/visao-tecnica.md"
+                                  }
+                              ],
+                      "FFL":  [
+                                  {
+                                      "name":  "Operador Cotacao Fretes Fastline UI — Visao Tecnica",
+                                      "description":  "Evidências de fluxo do repositório OperadorCotacaoFretesFastlineUI",
+                                      "md":  "./docs/Contextos/FFL/Tecnico/OperadorCotacaoFretesFastlineUI/visao-tecnica.md"
+                                  }
+                              ],
+                      "Freight-Verify":  [
+                                             {
+                                                 "name":  "Freight Verify Arquitetura — Visao Tecnica",
+                                                 "description":  "Evidências de fluxo do repositório FreightVerifyArquitetura",
+                                                 "md":  "./docs/Contextos/Freight-Verify/Tecnico/FreightVerifyArquitetura/visao-tecnica.md"
+                                             },
+                                             {
+                                                 "name":  "Freight Verify Gerenciador Shipment Worker — Visao Tecnica",
+                                                 "description":  "Evidências de fluxo do repositório FreightVerifyGerenciadorShipmentWorker",
+                                                 "md":  "./docs/Contextos/Freight-Verify/Tecnico/FreightVerifyGerenciadorShipmentWorker/visao-tecnica.md"
+                                             },
+                                             {
+                                                 "name":  "Freight Verify Historico Posicao Integrador — Visao Tecnica",
+                                                 "description":  "Evidências de fluxo do repositório FreightVerifyHistoricoPosicaoIntegrador",
+                                                 "md":  "./docs/Contextos/Freight-Verify/Tecnico/FreightVerifyHistoricoPosicaoIntegrador/visao-tecnica.md"
+                                             },
+                                             {
+                                                 "name":  "Freight Verify Shipment Worker — Visao Tecnica",
+                                                 "description":  "Evidências de fluxo do repositório FreightVerifyShipmentWorker",
+                                                 "md":  "./docs/Contextos/Freight-Verify/Tecnico/FreightVerifyShipmentWorker/visao-tecnica.md"
+                                             }
+                                         ],
+                      "Fretes-OL":  [
+                                        {
+                                            "name":  "Ol Fretes Api — Visao Tecnica",
+                                            "description":  "Evidências de fluxo do repositório OlFretesApi",
+                                            "md":  "./docs/Contextos/Fretes-OL/Tecnico/OlFretesApi/visao-tecnica.md"
+                                        },
+                                        {
+                                            "name":  "OLFretes Calculo Consumer — Visao Tecnica",
+                                            "description":  "Evidências de fluxo do repositório OLFretesCalculoConsumer",
+                                            "md":  "./docs/Contextos/Fretes-OL/Tecnico/OLFretesCalculoConsumer/visao-tecnica.md"
+                                        },
+                                        {
+                                            "name":  "OLFretes Consulta Valor Frete Vigente Api — Visao Tecnica",
+                                            "description":  "Evidências de fluxo do repositório OLFretesConsultaValorFreteVigenteApi",
+                                            "md":  "./docs/Contextos/Fretes-OL/Tecnico/OLFretesConsultaValorFreteVigenteApi/visao-tecnica.md"
+                                        },
+                                        {
+                                            "name":  "OLFretes Exportacoes Consumer — Visao Tecnica",
+                                            "description":  "Evidências de fluxo do repositório OLFretesExportacoesConsumer",
+                                            "md":  "./docs/Contextos/Fretes-OL/Tecnico/OLFretesExportacoesConsumer/visao-tecnica.md"
+                                        },
+                                        {
+                                            "name":  "OLFretes Gerenciador Status Reajuste Consumer — Visao Tecnica",
+                                            "description":  "Evidências de fluxo do repositório OLFretesGerenciadorStatusReajusteConsumer",
+                                            "md":  "./docs/Contextos/Fretes-OL/Tecnico/OLFretesGerenciadorStatusReajusteConsumer/visao-tecnica.md"
+                                        },
+                                        {
+                                            "name":  "OLFretes Gerenciador Workflow — Visao Tecnica",
+                                            "description":  "Evidências de fluxo do repositório OLFretesGerenciadorWorkflow",
+                                            "md":  "./docs/Contextos/Fretes-OL/Tecnico/OLFretesGerenciadorWorkflow/visao-tecnica.md"
+                                        },
+                                        {
+                                            "name":  "OLFretes Importacao Rotas Api — Visao Tecnica",
+                                            "description":  "Evidências de fluxo do repositório OLFretesImportacaoRotasApi",
+                                            "md":  "./docs/Contextos/Fretes-OL/Tecnico/OLFretesImportacaoRotasApi/visao-tecnica.md"
+                                        },
+                                        {
+                                            "name":  "OLFretes Liberacao Finalizacao Consumer — Visao Tecnica",
+                                            "description":  "Evidências de fluxo do repositório OLFretesLiberacaoFinalizacaoConsumer",
+                                            "md":  "./docs/Contextos/Fretes-OL/Tecnico/OLFretesLiberacaoFinalizacaoConsumer/visao-tecnica.md"
+                                        },
+                                        {
+                                            "name":  "OLFretes Migrations — Visao Tecnica",
+                                            "description":  "Evidências de fluxo do repositório OLFretesMigrations",
+                                            "md":  "./docs/Contextos/Fretes-OL/Tecnico/OLFretesMigrations/visao-tecnica.md"
+                                        },
+                                        {
+                                            "name":  "OLFretes Portal UI — Visao Tecnica",
+                                            "description":  "Evidências de fluxo do repositório OLFretesPortalUI",
+                                            "md":  "./docs/Contextos/Fretes-OL/Tecnico/OLFretesPortalUI/visao-tecnica.md"
+                                        }
+                                    ],
+                      "Gestao-de-Dashboards-Operacionais":  [
+                                                                {
+                                                                    "name":  "Gestao Dash Bords Operacionais — Visao Tecnica",
+                                                                    "description":  "Evidências de fluxo do repositório GestaoDashBordsOperacionais",
+                                                                    "md":  "./docs/Contextos/Gestao-de-Dashboards-Operacionais/Tecnico/GestaoDashBordsOperacionais/visao-tecnica.md"
+                                                                }
+                                                            ],
+                      "Integracao-ASL-OL":  [
+                                                {
+                                                    "name":  "ASLOLFila Movimentacao Publicador — Visao Tecnica",
+                                                    "description":  "Evidências de fluxo do repositório ASLOLFilaMovimentacaoPublicador",
+                                                    "md":  "./docs/Contextos/Integracao-ASL-OL/Tecnico/ASLOLFilaMovimentacaoPublicador/visao-tecnica.md"
+                                                },
+                                                {
+                                                    "name":  "ASLOLFila Nota Fiscal Associacao Publicador — Visao Tecnica",
+                                                    "description":  "Evidências de fluxo do repositório ASLOLFilaNotaFiscalAssociacaoPublicador",
+                                                    "md":  "./docs/Contextos/Integracao-ASL-OL/Tecnico/ASLOLFilaNotaFiscalAssociacaoPublicador/visao-tecnica.md"
+                                                },
+                                                {
+                                                    "name":  "ASLOLFila Veiculo Publicador — Visao Tecnica",
+                                                    "description":  "Evidências de fluxo do repositório ASLOLFilaVeiculoPublicador",
+                                                    "md":  "./docs/Contextos/Integracao-ASL-OL/Tecnico/ASLOLFilaVeiculoPublicador/visao-tecnica.md"
+                                                },
+                                                {
+                                                    "name":  "ASLOLViagem Integrador — Visao Tecnica",
+                                                    "description":  "Evidências de fluxo do repositório ASLOLViagemIntegrador",
+                                                    "md":  "./docs/Contextos/Integracao-ASL-OL/Tecnico/ASLOLViagemIntegrador/visao-tecnica.md"
+                                                }
+                                            ],
+                      "Integracao-de-Clientes-OL":  [
+                                                        {
+                                                            "name":  "OLClientes Integrador — Visao Tecnica",
+                                                            "description":  "Evidências de fluxo do repositório OLClientesIntegrador",
+                                                            "md":  "./docs/Contextos/Integracao-de-Clientes-OL/Tecnico/OLClientesIntegrador/visao-tecnica.md"
+                                                        }
+                                                    ],
+                      "Integracao-OL-DCE":  [
+                                                {
+                                                    "name":  "OLDce Integrador — Visao Tecnica",
+                                                    "description":  "Evidências de fluxo do repositório OLDceIntegrador",
+                                                    "md":  "./docs/Contextos/Integracao-OL-DCE/Tecnico/OLDceIntegrador/visao-tecnica.md"
+                                                }
+                                            ],
+                      "OL-Cadastro-e-Servicos":  [
+                                                     {
+                                                         "name":  "OLApi Cadastral — Visao Tecnica",
+                                                         "description":  "Evidências de fluxo do repositório OLApiCadastral",
+                                                         "md":  "./docs/Contextos/OL-Cadastro-e-Servicos/Tecnico/OLApiCadastral/visao-tecnica.md"
+                                                     },
+                                                     {
+                                                         "name":  "OLMigrations — Visao Tecnica",
+                                                         "description":  "Evidências de fluxo do repositório OLMigrations",
+                                                         "md":  "./docs/Contextos/OL-Cadastro-e-Servicos/Tecnico/OLMigrations/visao-tecnica.md"
+                                                     },
+                                                     {
+                                                         "name":  "OLService API — Visao Tecnica",
+                                                         "description":  "Evidências de fluxo do repositório OLServiceAPI",
+                                                         "md":  "./docs/Contextos/OL-Cadastro-e-Servicos/Tecnico/OLServiceAPI/visao-tecnica.md"
+                                                     }
+                                                 ],
+                      "OL-Portal":  [
+                                        {
+                                            "name":  "OLPortal Certo — Visao Tecnica",
+                                            "description":  "Evidências de fluxo do repositório OLPortal_Certo",
+                                            "md":  "./docs/Contextos/OL-Portal/Tecnico/OLPortal_Certo/visao-tecnica.md"
+                                        },
+                                        {
+                                            "name":  "OLPortal Angular Api — Visao Tecnica",
+                                            "description":  "Evidências de fluxo do repositório OLPortalAngularApi",
+                                            "md":  "./docs/Contextos/OL-Portal/Tecnico/OLPortalAngularApi/visao-tecnica.md"
+                                        },
+                                        {
+                                            "name":  "OLPortal Angular UI — Visao Tecnica",
+                                            "description":  "Evidências de fluxo do repositório OLPortalAngularUI",
+                                            "md":  "./docs/Contextos/OL-Portal/Tecnico/OLPortalAngularUI/visao-tecnica.md"
+                                        },
+                                        {
+                                            "name":  "Operador Logistico Portal UI — Visao Tecnica",
+                                            "description":  "Evidências de fluxo do repositório OperadorLogisticoPortalUI",
+                                            "md":  "./docs/Contextos/OL-Portal/Tecnico/OperadorLogisticoPortalUI/visao-tecnica.md"
+                                        }
+                                    ],
+                      "OL-Programacao":  [
+                                             {
+                                                 "name":  "OLProgramacao Eletronica — Visao Tecnica",
+                                                 "description":  "Evidências de fluxo do repositório OLProgramacaoEletronica",
+                                                 "md":  "./docs/Contextos/OL-Programacao/Tecnico/OLProgramacaoEletronica/visao-tecnica.md"
+                                             }
+                                         ],
+                      "Omoda-Veiculos":  [
+                                             {
+                                                 "name":  "Omoda Veiculo Integrador — Visao Tecnica",
+                                                 "description":  "Evidências de fluxo do repositório OmodaVeiculoIntegrador",
+                                                 "md":  "./docs/Contextos/Omoda-Veiculos/Tecnico/OmodaVeiculoIntegrador/visao-tecnica.md"
+                                             }
+                                         ],
+                      "Plataforma-de-Integracao":  [
+                                                       {
+                                                           "name":  "Plataforma Integracao Api — Visao Tecnica",
+                                                           "description":  "Evidências de fluxo do repositório PlataformaIntegracaoApi",
+                                                           "md":  "./docs/Contextos/Plataforma-de-Integracao/Tecnico/PlataformaIntegracaoApi/visao-tecnica.md"
+                                                       }
+                                                   ],
+                      "Radar-BI":  [
+                                       {
+                                           "name":  "Radar BI — Visao Tecnica",
+                                           "description":  "Evidências de fluxo do repositório RadarBI",
+                                           "md":  "./docs/Contextos/Radar-BI/Tecnico/RadarBI/visao-tecnica.md"
+                                       }
+                                   ],
+                      "Seguranca-e-Autenticacao":  [
+                                                       {
+                                                           "name":  "Seguranca Autenticacao API — Visao Tecnica",
+                                                           "description":  "Evidências de fluxo do repositório SegurancaAutenticacaoAPI",
+                                                           "md":  "./docs/Contextos/Seguranca-e-Autenticacao/Tecnico/SegurancaAutenticacaoAPI/visao-tecnica.md"
+                                                       }
+                                                   ],
+                      "Tracking-BYD":  [
+                                           {
+                                               "name":  "Tracking BYDMigrations — Visao Tecnica",
+                                               "description":  "Evidências de fluxo do repositório TrackingBYDMigrations",
+                                               "md":  "./docs/Contextos/Tracking-BYD/Tecnico/TrackingBYDMigrations/visao-tecnica.md"
+                                           },
+                                           {
+                                               "name":  "Tracking BYDWorker — Visao Tecnica",
+                                               "description":  "Evidências de fluxo do repositório TrackingBYDWorker",
+                                               "md":  "./docs/Contextos/Tracking-BYD/Tecnico/TrackingBYDWorker/visao-tecnica.md"
+                                           },
+                                           {
+                                               "name":  "Tracking BYDWorker Analises Py — Visao Tecnica",
+                                               "description":  "Evidências de fluxo do repositório TrackingBYDWorkerAnalisesPy",
+                                               "md":  "./docs/Contextos/Tracking-BYD/Tecnico/TrackingBYDWorkerAnalisesPy/visao-tecnica.md"
+                                           },
+                                           {
+                                               "name":  "Tracking BYDWorker Py — Visao Tecnica",
+                                               "description":  "Evidências de fluxo do repositório TrackingBYDWorkerPy",
+                                               "md":  "./docs/Contextos/Tracking-BYD/Tecnico/TrackingBYDWorkerPy/visao-tecnica.md"
+                                           }
+                                       ]
+                  },
+    "demandas":  {
+                     "Exemplo":  [
+
+                                 ]
+                 }
+}

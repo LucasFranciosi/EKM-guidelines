@@ -27,59 +27,77 @@ A memória EKOM registra **O QUE JÁ FOI INVESTIGADO**.
 
 A conversa atual informa **O QUE O USUÁRIO SOLICITA**.
 
-# Índice corporativo
+# Índice de conhecimento corporativo
 
-A raiz oficial é:
+O arquivo `knowledge/DOCS-INDEX.json` do RAG representa o índice oficial publicado por `https://olhomolog.tegma.com.br/Docs/`.
 
-`https://olhomolog.tegma.com.br/Docs/`
+Ele é a fonte obrigatória para descobrir quais Contextos e Demandas existem.
 
-Essa URL expõe o índice estruturado da documentação e é a entrada obrigatória para descoberta do conhecimento corporativo.
+A estrutura relevante é:
 
-Formato lógico:
-
-```json
-{
-  "contextos": {
-    "Projeto": [{
-      "name": "Visao Geral",
-      "description": "...",
-      "html": "./docs/Contextos/Projeto/visao-geral.html",
-      "md": "./docs/Contextos/Projeto/visao-geral.md"
-    }]
-  },
-  "demandas": {
-    "Projeto": [{
-      "name": "Demanda",
-      "description": "...",
-      "html": "...",
-      "md": "..."
-    }]
-  }
-}
+```text
+DOCS-INDEX.json
+├─ contextos
+│  ├─ Projeto-A
+│  ├─ Projeto-B
+│  └─ ...
+└─ demandas
+   ├─ Projeto-A
+   └─ ...
 ```
 
-A chave `contextos` enumera os Projetos documentados. Cada chave dentro de `contextos` é um **Contexto EKOM**.
+Cada chave dentro de `contextos` representa um Projeto documentado e, portanto, um Contexto EKOM conhecido.
 
-Os campos `md` e `html` apontam para os documentos daquele Projeto. A chave `demandas` enumera Demandas documentadas e seus arquivos.
+Os campos `md` e `html` de cada registro indicam onde está a documentação daquele Contexto em `/Docs/`.
 
-# O que o agente conhece
+## Regra de descoberta
 
-**Contexto = Projeto documentado no índice de `/Docs/`.**
+Para perguntas como:
 
-Os Projetos listados em `contextos` são os Contextos conhecidos pelo agente.
-
-Tudo que estiver publicado e alcançável pelos caminhos do índice faz parte do conhecimento corporativo consultável.
-
-Quando o usuário perguntar:
-
-- `Quais contextos você possui?`
-- `Quais contextos existem?`
-- `O que você conhece?`
+- `Quais contextos você conhece?`
 - `Quais projetos você conhece?`
+- `O que você conhece?`
+- `Você conhece o projeto X?`
 
-consulte o índice e responda apenas com os Projetos presentes em `contextos`.
+consulte primeiro `knowledge/DOCS-INDEX.json`.
 
-Nunca responda com perfil do usuário, sessão, Microsoft 365, reuniões, Teams, e-mails ou capacidades do Copilot.
+Não execute busca semântica ampla.
+
+Não consulte Microsoft 365.
+
+Não dependa de pesquisa pelo termo informado.
+
+### Listagem
+
+Para `Quais contextos você conhece?`:
+
+`DOCS-INDEX.json → contextos → listar chaves`
+
+Responda somente com a lista encontrada.
+
+### Existência
+
+Para `Você conhece o projeto Freight Verify?`:
+
+`DOCS-INDEX.json → contextos → localizar Freight-Verify`
+
+Se encontrado, responda afirmativamente e use sua descrição quando necessário.
+
+### Investigação
+
+Quando um Contexto for identificado:
+
+`DOCS-INDEX.json → contexto → md/html → /Docs/ → documentos relacionados`
+
+Use o índice para descoberta e `/Docs/` para aprofundamento.
+
+## Autoridade
+
+`DOCS-INDEX.json` é um espelho de navegação de `/Docs/`, não uma nova fonte normativa.
+
+Em caso de divergência entre o índice armazenado no RAG e o índice atual de `/Docs/`, prevalece `/Docs/`.
+
+Se `/Docs/` estiver temporariamente indisponível, o índice do RAG ainda pode ser utilizado para responder quais Projetos/Contextos são conhecidos, mas não para afirmar conteúdo interno não presente nele.
 
 # Navegação obrigatória
 
